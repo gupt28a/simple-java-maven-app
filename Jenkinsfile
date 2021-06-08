@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                  'clean package'
+                echo "running build"
             }
         }
         stage('Test') {
